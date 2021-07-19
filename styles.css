@@ -1,0 +1,42 @@
+body{
+    background: linear-gradient(35deg, #CCFFFF, #FFCCCC)
+}
+
+a{
+    background-color: #CCFFFF;
+}
+
+a:hover{
+    transform: scale(1.1);
+    background-color: #CCFFFF;
+}
+
+button:hover {
+    animation-name: background-color;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes background-color{
+    100% {
+      background-color: #4791d0;
+    }
+}
+
+.introduction{
+    font-family: monospace;
+    margin: auto;
+}
+
+.intro-textbox{
+    font-size: large;
+    /*border: solid;*/
+    border-radius: 5px;
+    padding: 10px;
+    width: 250px;
+    height: 160px;
+}
+
+.intro-text{
+    margin: auto;
+}
